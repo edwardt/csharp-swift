@@ -59,9 +59,17 @@ namespace OpenStack.Swift.Functional.Tests
 		private List<string> created_containers = new List<string>();
 		private SwiftClient client = new SwiftClient();
 
+		public void PrintAuthenInfo()
+		{
+			Console.WriteLine(string.Format("TestURL is {0} \n",auth_url));
+			Console.WriteLine(string.Format("Test userid is {0} \n", user_name));
+			Console.WriteLine(string.Format("Test auth_key is {0} \n", auth_token));
+		}
+
 		[SetUp]
 		public void setup()
 		{
+			PrintAuthenInfo();
 			created_containers = new List<string>();
 			created_objects = new List<Dictionary<string, string>>();
 			client = new SwiftClient();

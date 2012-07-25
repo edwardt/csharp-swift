@@ -5,5 +5,5 @@ To install csharp-swift, run the following command in the [Package Manager Conso
 ![Install-Pacakage csharp-swift](https://s3.amazonaws.com/github_readme_images/nuget-csharp-swift.PNG)
 
 To develop. You can either use Visual Studio 2010 (commercial) or MonoDevelop 
-(opensource and supports linux/macos environment).
-![MonoDevelop] (http://monodevelop.com/)
+(opensource and supports linux/macos environment). 
+[MonoDevelop] (http://monodevelop.com/)

@@ -35,7 +35,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = tests\OpenStack.Swift.Unit.Tests\OpenStack.Swift.Unit.Tests.csproj
+		StartupItem = tests\OpenStack.Swift.Functional.Tests\OpenStack.Swift.Functional.Tests.csproj
 		Policies = $0
 		$0.DotNetNamingPolicy = $1
 		$1.DirectoryNamespaceAssociation = None
